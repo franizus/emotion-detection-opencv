@@ -6,6 +6,8 @@ python -m pip install numpy
 
 python -m pip install opencv-python
 
+https://www.learnopencv.com/install-opencv-3-and-dlib-on-windows-python-only/
+
 ```
 import cv2
 print(cv2.**version**)
