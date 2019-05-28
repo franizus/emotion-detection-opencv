@@ -1,7 +1,3 @@
-"""
-Description: Train emotion classification model
-"""
-
 from keras.callbacks import CSVLogger, ModelCheckpoint, EarlyStopping
 from keras.callbacks import ReduceLROnPlateau
 from keras.preprocessing.image import ImageDataGenerator
