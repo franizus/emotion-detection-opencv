@@ -8,6 +8,8 @@ python -m pip install opencv-python
 
 https://www.learnopencv.com/install-opencv-3-and-dlib-on-windows-python-only/
 
+visual studio c++
+
 ```
 import cv2
 print(cv2.**version**)
@@ -35,3 +37,8 @@ break
 cap.release()
 cv2.destroyAllWindows()
 ```
+
+python -m pip install keras
+conda install -c anaconda keras
+
+python facial_emotion_image.py ./test/angry1.jpeg
